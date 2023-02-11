@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./public/style.css" />
+    <title>Clase 4t</title>
+</head>
+<body>
+    
+    <div id="general">
+
+        <div id="transicion">
+            <a href="#" id="boton">Google</a>
+        </div>
+
+        <div id="animacion">
+            <div id="caja">
+                <p>Soy una caja</p>
+            </div>
+        </div>
+
+        <div id="formularios" >
+            <form id="formulario" method="post">
+                <fieldset>
+                    <center>Informacion del Cliente</center>
+                    <label for="name">Nombre</label> 
+                    <input type="text" id="name" name="name" placeholder="Alejandra"> <br><br>
+            
+                    <label>Apellidos</label>
+                    <input typy="text" id="lastname" name="lastname" placeholder="Anchía"><br><br>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ale.anch@gmail.com"><br><br>
+
+                    <label for="password" Password></label>
+                    <input type="password" id="password" name="password" placeholder="*******"><br><br>
+
+                    <label for="">Edad</label>
+                    <input type="number" id="edad" name="edad" value="0" min="0" step="any"><br><br>
+
+                    <label>Genero/Sexo</label><br>
+                    <input type="radio" id="Masculino" name="genero">
+                    <label for="masculino">Masculino</label><br>
+
+                    <input type="radio" id="Femenino" name="genero">
+                    <label for="femenino">Femenino</label><br><br>
+
+                    <label>Marque el color que más le gusta:</label><br>
+                    <input type="checkbox" id="rojo" name="clasica">
+                    <label for="rojo">Rojo</label><br>
+
+                    <input type="checkbox" id="verde" name="clasica">
+                    <label for="verde">Verde</label><br>
+
+                    <label for="nacionalidad">Seleccione su nacionalidad:</label>
+                    <select id="nacionalidad" name="nacionalidad">
+                        <option value="Costarricense">Costarricense()</option>
+                        <option value="Nica jeje">Nica()</option>  
+                    </select><br><br>
+
+                    <label>Deja tu comentario:</label>
+                    <textarea id="comentario" name="comentario"
+                    placeholder="Deja tu comentario" rows="2" cols="30"></textarea>
+                    </textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
